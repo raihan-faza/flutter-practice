@@ -11,30 +11,30 @@ class CategoryModel {
     required this.boxColor,
   });
 
-  List<CategoryModel> getCategories() {
+  static List<CategoryModel> getCategories() {
     List<CategoryModel> categories = [];
     categories.add(
       CategoryModel(
           name: "salad",
-          iconPath: "assets/icons/salad",
+          iconPath: "assets/icons/salad.svg",
           boxColor: Colors.tealAccent),
     );
     categories.add(
       CategoryModel(
           name: "cake",
-          iconPath: "assets/icons/cake",
+          iconPath: "assets/icons/cake.svg",
           boxColor: Colors.tealAccent),
     );
     categories.add(
       CategoryModel(
           name: "pie",
-          iconPath: "assets/icons/pie",
+          iconPath: "assets/icons/pie.svg",
           boxColor: Colors.tealAccent),
     );
     categories.add(
       CategoryModel(
           name: "smoothies",
-          iconPath: "assets/icons/smoothies",
+          iconPath: "assets/icons/smoothies.svg",
           boxColor: Colors.tealAccent),
     );
     return categories;
